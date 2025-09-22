@@ -21,7 +21,7 @@ header {
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
-.navbar { display: flex; align-items: center; justify-content: space-between; padding: .50rem 0; }
+.navbar { display: flex; align-items: center; justify-content: space-between; padding: 0; }
 .nav li { float: right; padding-top:0;}
 .right-side li, left-side li {display: inline-block;}
 .left-side li{float:left}
