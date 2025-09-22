@@ -22,7 +22,7 @@ header {
   border-bottom: 1px solid #e2e8f0;
 }
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: 0rem 1rem; }
-.nav li { float: right; padding-top:0;}
+.nav li { float: right; padding-top:0; color:#FFFFFF;}
 .right-side li, left-side li {display: inline-block;}
 .left-side li{float:left}
 .right-side li{float:right}
