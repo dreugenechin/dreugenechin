@@ -75,7 +75,6 @@ footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#475569; backgrou
 /* Responsive */
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
-  nav ul { display: none; }
   nav ul.open { display: flex; flex-direction: column; gap: .5rem; background: white; position: absolute; top: 60px; right: 1rem; padding: .75rem; border:1px solid #e2e8f0; border-radius:.75rem; }
   .menu-toggle { display: inline-flex; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
