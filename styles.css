@@ -23,7 +23,7 @@ header {
   border-bottom: 1px solid #e2e8f0;
 }
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: .50rem 0; }
-.nav li { float: right; padding-top:0}
+.nav li { float: right; padding-top:0;}
 .brand { display: flex; align-items: center; gap: .75rem; }
 .brand .logo { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg,#22d3ee,#0ea5e9); display:inline-block; }
 .brand .title { font-weight: 700; letter-spacing: .2px; }
