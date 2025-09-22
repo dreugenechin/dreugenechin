@@ -15,7 +15,8 @@ a:hover { text-decoration: underline; }
 /* Header */
 header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(255,255,255,0.9);
+  background-color: linear-gradient(to right, #0047ab, #1ca9c9);
+  
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
