@@ -25,12 +25,14 @@ header {
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: .50rem 0; }
 .nav li { float: right; padding-top:0;}
 .right-side li, left-side li{display: inline-block;}
+.left-side li{float:left}
+.right-side li{float:right}
 .brand { display: flex; align-items: center; gap: .75rem; }
 .brand .logo { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg,#22d3ee,#0ea5e9); display:inline-block; }
 .brand .title { font-weight: 700; letter-spacing: .2px; }
 .tagline { font-size: .95rem; color: #0ea5e9; }
 
-nav ul { display: flex; gap: 1rem; list-style: none; padding: 0; margin: 0; float:right}
+nav ul { display: flex; gap: 1rem; list-style: none; padding: 0; margin: 0;}
 nav a { padding: .5rem .25rem; border-radius: .5rem; }
 nav h4 { padding: .5rem .25rem; border-radius: .5rem; }
 nav a:hover { background: #f1f5f9; }
