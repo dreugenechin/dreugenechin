@@ -54,7 +54,7 @@ nav a:hover {  }
 .hero-grid {
   display: grid; grid-template-columns: 1.2fr .8fr; gap: 2rem; align-items: center;
 }
-.hero h1 { color: #000080; font-size: 2.4rem; line-height: 1.2; margin: 0 0 .75rem; }
+.hero h1 { color: #000068; font-size: 2.4rem; line-height: 1.2; margin: 0 0 .75rem; }
 .hero p { font-size: 1.1rem; color: #334155; }
 .hero .cta { display: flex; gap: 1rem; margin-top: 1.25rem; }
 .btn {
@@ -70,8 +70,8 @@ nav a:hover {  }
 
 /* Sections */
 section { padding: 3rem 0; scroll-margin-top: 72px; }
-section h2 { font-size: 1.6rem; margin: 0 0 1rem; color: #000080;}
-section h3 {color: #000080;}
+section h2 { font-size: 1.6rem; margin: 0 0 1rem; color: #000068;}
+section h3 {color: #000068;}
 .grid { display: grid; gap: 1rem; }
 .grid-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
 .grid-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
