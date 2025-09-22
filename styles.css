@@ -22,7 +22,7 @@ header {
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
-.a:link{color:#FFFFFF;}
+.navbar a:link {color: #FFFFFF}
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: 0rem 1rem; }
 .nav li { float: right; padding-top:0; color:#FFFFFF;}
 .right-side li, left-side li {display: inline-block;}
