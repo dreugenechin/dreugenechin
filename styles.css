@@ -83,7 +83,7 @@ kbd { background:#e2e8f0; border-radius:.3rem; padding:.1rem .35rem; font-family
 blockquote {
   border-left: 4px solid #0ea5e9; padding-left: 1rem; color: #334155; margin: .5rem 0 0;
 }
-.small { color:#64748b; font-size:.95rem; }
+.small { color:#0f172a; font-size:.95rem; }
 
 /* Footer */
 footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#475569; background:#fcfcfc; }
