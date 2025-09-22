@@ -22,6 +22,11 @@ header {
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
+
+.navbar ul li a {
+  color: #FFFFFF; 
+}
+
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: 0rem 1rem; color: #FFFFFF}
 .nav li { float: right; padding-top:0; color:#FFFFFF;}
 .right-side li, left-side li {display: inline-block;}
