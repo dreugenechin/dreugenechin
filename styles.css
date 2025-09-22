@@ -38,6 +38,14 @@ nav a:hover { background: #f1f5f9; }
 
 .menu-toggle { display: none; border: 1px solid #cbd5e1; padding: .5rem .6rem; border-radius: .5rem; background: white; }
 
+/* Divider */
+.horizontal-divider {
+  width: 95%; 
+  height: 1px; 
+  background-color: #FFDB58; 
+  margin: 10px 0; /* Add vertical spacing */
+}
+
 /* Hero */
 .hero {
   padding: 4rem 0;
