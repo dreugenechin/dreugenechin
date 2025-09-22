@@ -82,6 +82,9 @@ blockquote {
 }
 .small { color:#0f172a; font-size:.95rem; }
 
+/* ---contact section---*/
+.contact {display: grid; padding: 1rem 25%; align: center; justify-content: center; align-items: center;}
+
 /* Footer */
 footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#475569; background:#fcfcfc; }
 
@@ -92,9 +95,6 @@ footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#475569; backgrou
   .menu-toggle { display: inline-flex; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
 }
-
-/* ---contact section---*/
-.contact { width:70%; display: grid; padding: 1rem 25%; align: center; justify-content: center; align-items: center;}
 
 /* --- CV sections --- */
 .cv h3 { margin-top: 1.25rem; }
