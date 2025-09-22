@@ -23,10 +23,7 @@ header {
   border-bottom: 1px solid #e2e8f0;
 }
 
-.navbar ul li a {
-  color: #FFFFFF; 
-}
-
+.navbar ul li a { color: #FFFFFF; }
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: 0rem 1rem; color: #FFFFFF}
 .nav li { float: right; padding-top:0; color:#FFFFFF;}
 .right-side li, left-side li {display: inline-block;}
@@ -45,13 +42,7 @@ nav a:hover {  }
 .menu-toggle { display: none; border: 1px solid #cbd5e1; padding: .5rem .6rem; border-radius: .5rem; background: white; }
 
 /* Divider */
-.horizontal-divider {
-  border: 0.5px solid #FFCE1B;
-  width: 100%; 
-  height: 2.5px; 
-  background-color: #FFCE1B; 
-  margin: 10px 0; /* Add vertical spacing */
-}
+.horizontal-divider { border: 0.5px solid #FFCE1B; width: 100%; height: 2.5px; background-color: #FFCE1B; margin: 10px 0; }
 
 /* Hero */
 .hero {
@@ -103,10 +94,7 @@ footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#475569; backgrou
 }
 
 /* ---contact section---*/
-.contact { width:70%; display: flex;
-  align: center;
-  justify-content: center;
-  align-items: center;}
+.contact { width:70%; display: grid; padding: 1rem 25%; align: center; justify-content: center; align-items: center;}
 
 /* --- CV sections --- */
 .cv h3 { margin-top: 1.25rem; }
