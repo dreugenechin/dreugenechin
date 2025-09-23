@@ -78,7 +78,6 @@ section h3 {color: #000068;}
 .grid-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
 .grid-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
 .grid-4ver { grid-template-rows: repeat(4, minmax(0,1fr));}
-.table { grid-column: 2 / span 4;}
 .badge { display:inline-block; padding:.25rem .5rem; font-size:.8rem; border:1px solid #cbd5e1; border-radius:.5rem; color:#0f172a; background:#f8fafc; }
 .list { margin: .5rem 0 0 1rem; }
 kbd { background:#e2e8f0; border-radius:.3rem; padding:.1rem .35rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.85em; }
@@ -87,6 +86,21 @@ blockquote {
   border-left: 4px solid #0ea5e9; padding-left: 1rem; color: #334155; margin: .5rem 0 0;
 }
 .small { color:#0f172a; font-size:.95rem; }
+
+/* --- table grid ---*/
+.table-grid { display: grid;
+              grid-template-areas: "SEM RD ProgEval M&A" "Trauma&PTSD TBD CBT PsychoP"; 
+             grid-template-columns:5fr 5fr;
+            gap: 10px; }
+.table-grid > div {background-color:#1ca9c9;}
+.table-grid > div.SEM {grid-area: SEM; text-align: center;}
+.table-grid > div.RD {grid-area: RD; text-align: center;}
+.table-grid > div.ProgEval {grid-area: ProgEval; text-align: center;}
+.table-grid > div.M&A {grid-area: M&A; text-align: center;}
+.table-grid > div.Trauma&PTSD {grid-area: Trauma&PTSD; text-align: center;}
+.table-grid > div.TBD {grid-area: TBD; text-align: center;}
+.table-grid > div.CBT {grid-area: CBT; text-align: center;}
+.table-grid > div.PsychoP {grid-area: PsychoP; text-align: center;}
 
 /* ---contact section---*/
 .contact { padding: 1rem 27%; justify-content: center; align-items: center;}
