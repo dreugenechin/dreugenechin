@@ -90,13 +90,9 @@ blockquote {
 /* --- table grid ---*/
 .grid-container {
   display: grid;
-  /* Creates 4 equal-width columns. */
   grid-template-columns: repeat(4, 1fr);
-  /* Creates 2 equal-height rows. */
   grid-template-rows: repeat(2, 1fr);
-  /* Adds a gap between grid cells (optional). */
   gap: 10px;
-  /* Ensure the container has a defined height to make rows equal. */
   height: 100px;
 }
 
