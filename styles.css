@@ -18,7 +18,7 @@ header {
   position: sticky; top: 0; z-index: 50;
   color: #FFFFFF;
   background-color: #191970; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #191970, #1877F2);
+  background-image: linear-gradient(to right, #191970, #6495ED);
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
@@ -100,7 +100,7 @@ blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1877F2;
+  background-color: #6495ED;
   border-radius: 0.3rem ;
   color: #FFFFFF;
 }
