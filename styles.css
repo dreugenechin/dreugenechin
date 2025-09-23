@@ -88,19 +88,25 @@ blockquote {
 .small { color:#0f172a; font-size:.95rem; }
 
 /* --- table grid ---*/
-.table-grid { display: grid;
-              grid-template-areas: "SEM RD ProgEval M&A" "Trauma&PTSD TBD CBT PsychoP"; 
-             grid-template-columns:5fr 5fr;
-            gap: 10px; }
-.table-grid > div {background-color:#1ca9c9;}
-.table-grid > div.SEM {grid-area: SEM; text-align: center;}
-.table-grid > div.RD {grid-area: RD; text-align: center;}
-.table-grid > div.ProgEval {grid-area: ProgEval; text-align: center;}
-.table-grid > div.M&A {grid-area: M&A; text-align: center;}
-.table-grid > div.Trauma&PTSD {grid-area: Trauma&PTSD; text-align: center;}
-.table-grid > div.TBD {grid-area: TBD; text-align: center;}
-.table-grid > div.CBT {grid-area: CBT; text-align: center;}
-.table-grid > div.PsychoP {grid-area: PsychoP; text-align: center;}
+grid-container {
+  display: grid;
+  /* Creates 4 equal-width columns. */
+  grid-template-columns: repeat(4, 1fr);
+  /* Creates 2 equal-height rows. */
+  grid-template-rows: repeat(2, 1fr);
+  /* Adds a gap between grid cells (optional). */
+  gap: 10px;
+  /* Ensure the container has a defined height to make rows equal. */
+  height: 100px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ca9c9;
+  border: 1px ;
+}
 
 /* ---contact section---*/
 .contact { padding: 1rem 27%; justify-content: center; align-items: center;}
