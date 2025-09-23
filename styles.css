@@ -88,7 +88,7 @@ blockquote {
 .small { color:#0f172a; font-size:.95rem; }
 
 /* --- table grid ---*/
-grid-container {
+.grid-container {
   display: grid;
   /* Creates 4 equal-width columns. */
   grid-template-columns: repeat(4, 1fr);
