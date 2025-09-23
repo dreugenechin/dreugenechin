@@ -92,7 +92,7 @@ blockquote {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
+  gap: 13px;
   height: 100px;
 }
 
@@ -101,7 +101,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   background-color: #1ca9c9;
-  border-radius: 1rem ;
+  border-radius: 0.3rem ;
 }
 
 /* ---contact section---*/
