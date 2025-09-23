@@ -67,7 +67,7 @@ nav a:hover {  }
 }
 .row-card {
   border-left: 3px solid #FFCE1B; border-radius: 0.3rem; padding: 1rem; background: white;
-  box-shadow: 0 1px 0 #e2e8f0;
+  box-shadow: 0.2px 1px 0.2px #e2e8f0;
 }
 
 /* Sections */
