@@ -17,8 +17,8 @@ a:hover { text-decoration: underline; }
 header {
   position: sticky; top: 0; z-index: 50;
   color: #FFFFFF;
-  background-color: #000080; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #000080, #1877F2);
+  background-color: #191970; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #191970, #1877F2);
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
