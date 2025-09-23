@@ -109,7 +109,7 @@ grid-container {
 }
 
 /* ---contact section---*/
-.contact { padding: 1rem 27%; justify-content: center; align-items: center;}
+.contact { padding: 1rem 20%; justify-content: center; align-items: center;}
 
 /* Footer */
 footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#475569; background:#fcfcfc; }
