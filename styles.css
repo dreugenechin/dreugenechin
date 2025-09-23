@@ -101,7 +101,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   background-color: #1ca9c9;
-  border:  0 1px 0 #1ca9c9 ;
+  border-radius: 1rem ;
 }
 
 /* ---contact section---*/
