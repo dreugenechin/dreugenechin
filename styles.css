@@ -68,7 +68,7 @@ nav a:hover {  }
   border-left: 3px solid #FFCE1B; border-radius: 0.3rem; padding: 1rem; background: white;
   box-shadow: 0.2px 1px 0.2px #e2e8f0;
 }
-.img {border-radius: 50%; object-fit:cover;width:250px;}
+.img {border-radius: 50%; object-fit:cover;width:300px;}
 
 /* Sections */
 section { padding: 3rem 0; scroll-margin-top: 72px; }
