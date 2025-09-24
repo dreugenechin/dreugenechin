@@ -22,7 +22,6 @@ header {
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #e2e8f0;
 }
-.img {border-radius: 50%; object-fit:cover;}
 .navbar ul li a { color: #FFFFFF; }
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: 0rem 1rem; color: #FFFFFF}
 .nav li { float: right; padding-top:0; color:#FFFFFF;}
@@ -69,6 +68,7 @@ nav a:hover {  }
   border-left: 3px solid #FFCE1B; border-radius: 0.3rem; padding: 1rem; background: white;
   box-shadow: 0.2px 1px 0.2px #e2e8f0;
 }
+.home img {border-radius: 50%; object-fit:cover;width:250px;}
 
 /* Sections */
 section { padding: 3rem 0; scroll-margin-top: 72px; }
