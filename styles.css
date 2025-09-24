@@ -86,7 +86,7 @@ blockquote {
   border-left: 4px solid #0ea5e9; padding-left: 1rem; color: #334155; margin: .5rem 0 0;
 }
 .small { color:#0f172a; font-size:.95rem; }
-
+.home img {border-radius: 50%;}
 /* --- table grid ---*/
 .grid-container {
   display: grid;
