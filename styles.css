@@ -108,8 +108,8 @@ blockquote {
 .contact { padding: 1rem 20%; justify-content: center; align-items: center;}
 
 /* Footer */
-footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#FFFFFF; background:#191970; text-align:center; }
-.footer-notes {list-style-type:none;display:inline-block;}
+footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#FFFFFF; background:#191970; text-align:center; display:flex; gap:2rem}
+.footer-notes {list-style-type:none;}
 .footer-notes li{color:#FFFFFF}
 
 /* Responsive */
