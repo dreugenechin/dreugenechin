@@ -109,12 +109,13 @@ blockquote {
 
 /* ---contact section---*/
 .contact { padding: 1rem 20%; justify-content: center; align-items: center;}
+.contact p img{display:inline-flex; width:1rem;}
 
 /* Footer */
 footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#FFFFFF; background:#191970; text-align:center;}
 .footer-notes {list-style-type:none; display:inline-flex; gap:2rem;}
 .footer-notes li a{color:#FFFFFF;}
-.footer-notes li img{display:inline-flex; width:1rem;}
+
 
 /* Responsive */
 @media (max-width: 900px) {
