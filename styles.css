@@ -104,6 +104,9 @@ blockquote {
   color: #FFFFFF;
 }
 
+/*--- services section ---*/
+services div img{display:inline-flex; width:1rem;}
+
 /* ---contact section---*/
 .contact { padding: 1rem 20%; justify-content: center; align-items: center;}
 
