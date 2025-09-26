@@ -104,6 +104,9 @@ blockquote {
   color: #FFFFFF;
 }
 
+/*--- research section ---*/
+.research img{display:inline-flex; width:1rem;}
+
 /*--- services section ---*/
 .services {text-align:center;}
 .services img{display:inline-flex; width:2rem;}
