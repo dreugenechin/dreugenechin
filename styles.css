@@ -105,8 +105,8 @@ blockquote {
 }
 
 /*--- services section ---*/
+.services {text-align:center;}
 .services img{display:inline-flex; width:2rem;}
-.services div{text-align:center;}
 
 /* ---contact section---*/
 .contact { padding: 1rem 20%; justify-content: center; align-items: center;}
