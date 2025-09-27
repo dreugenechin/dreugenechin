@@ -106,6 +106,7 @@ blockquote {
 
 /*--- research section ---*/
 .research {padding:1rem 20%; justify-content:center; align-items:center;}
+.research p {display:inline;}
 .research p img {width:1.5rem; margin-right:0.5rem;display:inline-flex;}
 .research p h3 {display:inline;}
 
