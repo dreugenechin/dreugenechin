@@ -105,7 +105,8 @@ blockquote {
 }
 
 /*--- research section ---*/
-.research img{display:inline-flex; width:1rem;}
+.research img{display:flex; align-items:center; width:1rem;}
+.research title{display:flex; align-items:center;}
 
 /*--- services section ---*/
 .services {text-align:center;}
