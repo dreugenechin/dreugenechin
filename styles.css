@@ -61,7 +61,7 @@ nav a:hover {  }
 .btn.primary { background: #0ea5e9; color: white; }
 .btn.ghost { background: white; border-color: #cbd5e1; color: #0f172a; }
 .card {
-  border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1rem; background: white;
+  border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1rem; background: #e2e8f0;
   box-shadow: 0 1px 0 #e2e8f0;
 }
 .row-card {
