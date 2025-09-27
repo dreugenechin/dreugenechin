@@ -105,8 +105,8 @@ blockquote {
 }
 
 /*--- research section ---*/
-.research p {display:flex; align-items:center;}
-.research p img {width:1.5rem; margin-right:0.5rem;}
+.research {padding:1rem 20%; justify-content:center; align-items:center;}
+.research p img {width:1.5rem; margin-right:0.5rem;display:inline-flex;}
 
 /*--- services section ---*/
 .services {text-align:center;}
@@ -114,7 +114,7 @@ blockquote {
 
 /* ---contact section---*/
 .contact { padding: 1rem 20%; justify-content: center; align-items: center;}
-.contact p img{display:inline-flex; width:1rem;}
+.contact p img{display:inline-flex; width:1rem;margin-right:0.5rem;}
 
 /* Footer */
 footer { border-top: 1px solid #e2e8f0; padding: 2rem 0; color:#FFFFFF; background:#191970; text-align:center;}
