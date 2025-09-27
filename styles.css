@@ -107,6 +107,7 @@ blockquote {
 /*--- research section ---*/
 .research {padding:1rem 20%; justify-content:center; align-items:center;}
 .research p img {width:1.5rem; margin-right:0.5rem;display:inline-flex;}
+.research h3 {display:inline;}
 
 /*--- services section ---*/
 .services {text-align:center;}
